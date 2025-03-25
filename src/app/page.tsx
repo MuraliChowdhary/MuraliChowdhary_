@@ -109,15 +109,37 @@ export default function Home() {
           Early Startup Experience
         </h2>
         <div className="space-y-4 text-gray-300 text-sm">
-          <div>
+          <div className="flex">
+             <div>
+             <Image
+          src="/winqroo.png"
+          alt="Profile"
+          width={60}
+          height={60}
+          className="rounded-full"
+        />
+             </div>
+            <div>
             <strong className="text-white">Winqroo</strong> – Contributed to
             product development, enhancing user experience and backend
             performance.
+            </div>
           </div>
-          <div>
+          <div className="flex">
+            <div>
+            <Image
+          src="/pnp1.png"
+          alt="Profile"
+          width={55} 
+          height={55}
+          className="rounded-full"
+        />
+            </div>
+            <div className="ml-2">
             <strong className="text-white">PickAndPartner</strong> – Improved
             platform efficiency through automation and optimization in both
             backend and frontend tasks.
+          </div>
           </div>
         </div>
       </section>
